@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+input{
+    padding: 4px 15px 4px 9px;
+    border-radius: 5px;
+    }
+form {
+        display: inline-block;
+        }
+
+#btn{
+    display: inline;
+    background-color:lightblue;
+    color: navy;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+#btn:hover{
+    background-color:springgreen;
+    cursor: pointer;
+}
+ol {
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+ol li {padding: 5px;color:#000;}
+
+ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(odd){background: #dfdfdf;}
+
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(153, 8, 8);
+    color: white;
+    text-align: center;
+ }
